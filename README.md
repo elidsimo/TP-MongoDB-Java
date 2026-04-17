@@ -1,4 +1,4 @@
-# TP7 – Manipulation de MongoDB avec une API Java
+# Manipulation de MongoDB avec une API Java
 
 > **Université Sultan Moulay Slimane – ENSA Khouribga**  
 > Module : Base de Données NoSQL  
@@ -12,16 +12,6 @@ Développer une application Java en **mode terminal** qui se connecte à une bas
 
 - La gestion des bases de données et des collections
 - La manipulation avancée du dataset **`books.json`** (questions du TP1)
-
----
-
-## Prérequis
-
-| Outil | Version recommandée |
-|-------|-------------------|
-| Java JDK | 17+ |
-| Maven | 3.8+ |
-| MongoDB | 6.x (local sur `localhost:27017`) |
 
 ---
 
@@ -44,7 +34,7 @@ TP7_MongoDB/
 
 ### 1. Cloner le projet
 ```bash
-git clone https://github.com/<votre-username>/TP7-MongoDB-Java.git
+git clone https://github.com/elidsimo/TP-MongoDB-Java.git
 cd TP7-MongoDB-Java
 ```
 
@@ -93,33 +83,12 @@ java -jar target/tp7-mongodb-1.0-SNAPSHOT.jar
 
 ## Technologies utilisées
 
-- **Java 17**
-- **MongoDB Java Driver** `4.11.1` (sync)
+- **Java**
+- **MongoDB Java Driver** 
 - **Maven** (gestion des dépendances + build)
-- Couleurs ANSI pour le terminal
 
 ---
 
-## Aperçu du terminal
-
-```
-╔══════════════════════════════════════════════════════╗
-║       MongoDB Manager - TP7  (Terminal Mode)         ║
-║   ENSA Khouribga  |  Pr. Nassima SOUSSI              ║
-╚══════════════════════════════════════════════════════╝
-
-  URI        : mongodb://localhost:27017
-  Base       : test
-  Collection : tp1
-
-══════════ MENU PRINCIPAL ══════════
-  ── Gestion des bases ──
-   1  Afficher toutes les bases de données
-   2  Créer une base de données
-   ...
-```
-
----
 
 ## Configuration
 
