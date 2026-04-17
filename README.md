@@ -34,7 +34,7 @@ TP7_MongoDB/
 
 ### 1. Cloner le projet
 ```bash
-git clone https://github.com/<votre-username>/TP7-MongoDB-Java.git
+git clone https://github.com/elidsimo/TP-MongoDB-Java.git
 cd TP7-MongoDB-Java
 ```
 
