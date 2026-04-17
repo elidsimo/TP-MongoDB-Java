@@ -24,6 +24,7 @@ TP7_MongoDB/
 │       └── java/
 │           └── org/example/
 │               └── Main.java          # Application principale (terminal)
+├── books.json                        #Data
 ├── pom.xml                            # Dépendances Maven
 └── README.md
 ```
@@ -40,7 +41,7 @@ cd TP7-MongoDB-Java
 
 ### 2. Importer le dataset
 ```bash
-mongoimport --db test --collection tp1 --file books.json --jsonArray
+mongoimport -d <db_name> -c <collection_name>  books.json 
 ```
 
 ### 3. Compiler et exécuter
