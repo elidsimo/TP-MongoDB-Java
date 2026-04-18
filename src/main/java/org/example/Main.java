@@ -91,9 +91,6 @@ public class Main {
         return true;
     }
 
-    // =========================================================================
-    //  HELPERS CONSOLE
-    // =========================================================================
     private static void header(String title) {
         System.out.println(YELLOW + "\n─── " + title + " ───" + RESET);
     }
@@ -112,10 +109,6 @@ public class Main {
         try { return v.isEmpty() ? defaultVal : Integer.parseInt(v); }
         catch (NumberFormatException e) { return defaultVal; }
     }
-
-    // =========================================================================
-    //  SECTION : GESTION DES BASES
-    // =========================================================================
 
     /** 1 - Afficher toutes les bases de données */
     private static void runQ1_ListDatabases() {
@@ -172,10 +165,7 @@ public class Main {
         } catch (Exception ex) { err(ex.getMessage()); }
     }
 
-    // =========================================================================
-    //  SECTION : REQUÊTES TP1
-    // =========================================================================
-
+  
     /**
      * Q1 – Afficher les N premiers documents
      * MQL : db.tp1.find().limit(N)
